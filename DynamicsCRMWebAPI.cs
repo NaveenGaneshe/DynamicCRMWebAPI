@@ -99,7 +99,7 @@ namespace DynamicsCRMWebAPI
                 string value = string.Empty;
                 foreach (var val in valueList)
                 {
-                    recordCount = int.Parse(val["accountCount"].ToString());
+                   //Your logic
                 }
                 return recordCount;
             }
