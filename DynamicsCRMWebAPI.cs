@@ -16,9 +16,9 @@ using Xrm.Tools.WebAPI.Metadata;
 using Xrm.Tools.WebAPI.Requests;
 using Xrm.Tools.WebAPI.Results;
 
-namespace acqreal.API.Common
+namespace DynamicsCRMWebAPI
 {
-    public class CommonCRMQuerry
+    public class DynamicsCRMWebAPI
     {
         #region Global private members
         private readonly CRMConnection _crm;
@@ -101,7 +101,6 @@ namespace acqreal.API.Common
                 {
                     recordCount = int.Parse(val["accountCount"].ToString());
                 }
-
                 return recordCount;
             }
             catch (Exception Ex)
